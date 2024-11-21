@@ -1,0 +1,25 @@
+@import url
+('https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&display=swap'); 
+:root{ --bg-color: #ee87f1; --primary-color: #7700ff; 
+    --secondary-color: #824392; 
+    --tipo-fonte: "Genos", sans-serif; }
+     body{ background-color:
+         var(--bg-color); 
+        color:var(--primary-color); 
+        font-family: var(--tipo-fonte);
+         height: 100vh; /*altura em porcentagem do body*/
+          margin:0; /*espaço externo da borda geral*/ 
+        } header{
+ background-color: var(--primary-color);
+  text-align:
+   center; padding: 1px;/*espaço interno do header*/ } 
+h1{ 
+    font-size: 2rem;/*tamanho da letra, medida rem do :root*/ 
+color:var(--bg-color); /*cor da letra*/ 
+font-weight: 700; /*weight define o negrito*/ } 
+nav{ 
+    display: flex; /*área flexível navegável*/ 
+    justify-content: center; /*justificar conteúdo ao centro*/ 
+font-weight: 400; /*negrito*/
+ } nav 
+ a{ /*link estático*/ text-decoratio
